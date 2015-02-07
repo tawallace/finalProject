@@ -1,0 +1,40 @@
+/*Administrative CSS*/
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+html {
+ box-sizing: border-box;
+}
+*, *:before, *:after {
+ box-sizing: inherit;
+}
+
+/*Sitewide CSS*/
+.sideNavigation {
+	float: left;
+}
+
+.sideNavigation a {
+	background: blue;
+	color: white;
+	margin-bottom: 2px;
+	padding: 10px;
+	text-decoration: none;
+	text-align: center;
+	transition: all 300ms;
+	width: 15%;
+}
+
+.sideNavigation a:hover {
+	background: gray;
+}
+.sideNavigation li {
+	display: inline-block;
+}

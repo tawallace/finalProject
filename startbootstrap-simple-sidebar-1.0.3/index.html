@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>XX XXXX Summaries Mock-Up</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/simple-sidebar.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <div id="wrapper">
+        <div id="sidebar-wrapper">
+            <ul class="sidebar-nav">
+                <li class="sidebar-brand">
+                    <a href="file:///C:/Users/allison/Desktop/FEWD8/public_html/finalProject/startbootstrap-grayscale-1.0.2/index.html">XX XXXX Summaries</a>
+                </li>
+                <li>
+                    <a href="javascript:HideAllShowOne('A')">Section A</a>
+                </li>
+                <li>
+                    <a href="javascript:HideAllShowOne('B')">Section B</a>
+                </li>
+                <li>
+                    <a href="javascript:HideAllShowOne('C')">Section C</a>
+                </li>
+                <li>
+                    <a href="javascript:HideAllShowOne('D')">Section D</a>
+                </li>
+                <li>
+                    <a href="javascript:HideAllShowOne('E')">Section E</a>
+                </li>
+                <li>
+                    <a href="javascript:HideAllShowOne('F')">Section F</a>
+                </li>
+                <li>
+                    <a href="javascript:HideAllShowOne('G')">Section G</a>
+                </li>
+                <li>
+                    <a href="javascript:HideAllShowOne('PrintSummary')">Print Summary</a>
+                </li>
+            </ul>
+        </div>
+
+        <div id="page-content-wrapper">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="locationHeading">
+                            <h1>Location Name</h1>
+                        </div>
+
+                        <div id="A" style="display:none;">
+                            <h1>Section A</h1>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam velit voluptatum nisi dignissimos recusandae natus pariatur, cupiditate, unde perspiciatis repellat dolores suscipit labore cum voluptate aspernatur aperiam esse voluptatem optio.</p>
+                        </div>
+                        
+                        <div id="B" style="display:none;">
+                            <h1>Section B</h1>
+                            <p>Check me out -- I've hidden the other sections.</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam velit voluptatum nisi dignissimos recusandae natus pariatur, cupiditate, unde perspiciatis repellat dolores suscipit labore cum voluptate aspernatur aperiam esse voluptatem optio.</p>
+                        </div>
+                                                
+                        <div id="C" style="display:none;">
+                            <h1>Section C</h1>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam velit voluptatum nisi dignissimos recusandae natus pariatur, cupiditate, unde perspiciatis repellat dolores suscipit labore cum voluptate aspernatur aperiam esse voluptatem optio.</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis praesentium dolorum excepturi libero odio. Recusandae ad perspiciatis consectetur vitae unde molestias temporibus. Laborum perspiciatis sequi obcaecati commodi quisquam maiores, quas.</p>
+                        </div>
+                                                
+                        <div id="D" style="display:none;">
+                            <h1>Section D</h1>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam velit voluptatum nisi dignissimos recusandae natus pariatur, cupiditate, unde perspiciatis repellat dolores suscipit labore cum voluptate aspernatur aperiam esse voluptatem optio.</p>
+                            <p>I'm still hiding sections on the same page.</p>
+                        </div>
+                                                
+                        <div id="E" style="display:none;">
+                            <h1>Section E</h1>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam velit voluptatum nisi dignissimos recusandae natus pariatur, cupiditate, unde perspiciatis repellat dolores suscipit labore cum voluptate aspernatur aperiam esse voluptatem optio.</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed quasi sapiente eum voluptatum dolores repellendus officia doloribus temporibus sit ad perferendis harum debitis laudantium cupiditate modi tempore eos obcaecati, reiciendis?</p>
+                        </div>
+                                                
+                        <div id="F" style="display:none;">
+                            <h1>Section F</h1>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam velit voluptatum nisi dignissimos recusandae natus pariatur, cupiditate, unde perspiciatis repellat dolores suscipit labore cum voluptate aspernatur aperiam esse voluptatem optio.</p>
+                        </div>
+                                                
+                        <div id="G" style="display:none;">
+                            <h1>Section G</h1>
+                            <p>I think you get my point.</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam velit voluptatum nisi dignissimos recusandae natus pariatur, cupiditate, unde perspiciatis repellat dolores suscipit labore cum voluptate aspernatur aperiam esse voluptatem optio.</p>
+                        </div>
+                                                
+                        <div id="PrintSummary" style="display:none;">
+                            <h1>Print Summary</h1>
+                            <p>This section should be a printable summary of the information contained in each of the previous sections. I'm still trying to figure out how to do this. Perhaps there's a way to create a PDF.</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam velit voluptatum nisi dignissimos recusandae natus pariatur, cupiditate, unde perspiciatis repellat dolores suscipit labore cum voluptate aspernatur aperiam esse voluptatem optio.</p>
+                        </div>
+                                               
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script>
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("toggled");
+    });
+    </script>
+    <script src="js/main.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
